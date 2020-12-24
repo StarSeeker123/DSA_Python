@@ -4,8 +4,8 @@ def mergeArray(arr1, arr2):
     for i in range(n-1, 0):
         last = arr1[m-1]
         j = m-2
-        while(arr1[j] > arr[i]):
-            arr[j+1] = arr[j]
+        while(arr1[j] > arr2[i]):
+            arr1[j+1] = arr2[j]
             j = j-1
         if (last > arr2[i]):
             arr1[j+1] = arr2[i]
