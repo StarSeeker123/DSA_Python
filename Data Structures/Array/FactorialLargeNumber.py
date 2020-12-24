@@ -43,4 +43,4 @@ def multiply(x, res, res_size):
 
 
 # Driver program
-factorial(100)
+largeFactorial(100)
