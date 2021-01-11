@@ -1,9 +1,6 @@
 import sys
 
 
-
-
-
 def largeFactorial(n):
 
     res = [0]*500
@@ -45,4 +42,3 @@ def multiply(x, res, res_size):
 
 # Driver program
 largeFactorial(100)
-
