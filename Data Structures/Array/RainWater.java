@@ -26,5 +26,6 @@ class GFG {
         int n = arr.length;
 
         System.out.print(maxWater(arr, n));
+
     }
 }
